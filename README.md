@@ -8,8 +8,18 @@ The Orlando Devs website is built on top of [https://www.netlify.com/Netlify](ht
 
 Once packages are installed run the Netlfiy dev stack:
 
-`netlify dev`
+* `netlify dev`
+* `npx decap-server` to run the local cms
 
+---
+## Local Demo
+* http://localhost:8888/
+* netlify cms http://localhost:8888/admin - needs to proxy to be run
+
+## Run tests
+
+* `npm run test`
+* convert yaml to typescript using https://jsonformatter.org/yaml-to-typescript
 ---
 ## Live Demo
 
